@@ -1,0 +1,183 @@
+Drop photos in photos/smiski/<series>/<figure>.jpg (or .png / .webp).
+Expected names:
+
+photos/smiski/series-1/hugging-knees.jpg    # Series 1 - Hugging Knees
+photos/smiski/series-1/sitting.jpg    # Series 1 - Sitting
+photos/smiski/series-1/looking-back.jpg    # Series 1 - Looking Back
+photos/smiski/series-1/lounging.jpg    # Series 1 - Lounging
+photos/smiski/series-1/hiding.jpg    # Series 1 - Hiding
+photos/smiski/series-1/peeking.jpg    # Series 1 - Peeking
+photos/smiski/series-1/rudolph.jpg    # Series 1 - Rudolph (Christmas) (secret)
+photos/smiski/series-1/scream.jpg    # Series 1 - Scream (secret)
+photos/smiski/series-2/kneeling.jpg    # Series 2 - Kneeling
+photos/smiski/series-2/climbing.jpg    # Series 2 - Climbing
+photos/smiski/series-2/daydreaming.jpg    # Series 2 - Daydreaming
+photos/smiski/series-2/pushing.jpg    # Series 2 - Pushing
+photos/smiski/series-2/peeking.jpg    # Series 2 - Peeking
+photos/smiski/series-2/listening.jpg    # Series 2 - Listening
+photos/smiski/series-2/snowman.jpg    # Series 2 - Snowman (Christmas) (secret)
+photos/smiski/series-2/birth-of-venus.jpg    # Series 2 - Birth of Venus (secret)
+photos/smiski/series-3/bridge.jpg    # Series 3 - Bridge
+photos/smiski/series-3/peeking.jpg    # Series 3 - Peeking
+photos/smiski/series-3/climbing.jpg    # Series 3 - Climbing
+photos/smiski/series-3/little.jpg    # Series 3 - Little (three)
+photos/smiski/series-3/hiding.jpg    # Series 3 - Hiding
+photos/smiski/series-3/handstand.jpg    # Series 3 - Handstand
+photos/smiski/series-3/the-thinker.jpg    # Series 3 - The Thinker (secret)
+photos/smiski/series-4/sneaking.jpg    # Series 4 - Sneaking
+photos/smiski/series-4/scared.jpg    # Series 4 - Scared
+photos/smiski/series-4/relaxing.jpg    # Series 4 - Relaxing
+photos/smiski/series-4/lazy.jpg    # Series 4 - Lazy
+photos/smiski/series-4/stuck.jpg    # Series 4 - Stuck
+photos/smiski/series-4/defeated.jpg    # Series 4 - Defeated
+photos/smiski/series-4/twin-angels.jpg    # Series 4 - Twin Angels (secret)
+photos/smiski/living/daydreaming.jpg    # Living Series - Daydreaming
+photos/smiski/living/playing.jpg    # Living Series - Playing
+photos/smiski/living/hiding.jpg    # Living Series - Hiding
+photos/smiski/living/nap-time.jpg    # Living Series - Nap Time
+photos/smiski/living/thinking.jpg    # Living Series - Thinking
+photos/smiski/living/lifting.jpg    # Living Series - Lifting
+photos/smiski/living/sunflower.jpg    # Living Series - Sunflower (secret)
+photos/smiski/bed/before-rest.jpg    # Bed Series - Before Rest
+photos/smiski/bed/sleepy.jpg    # Bed Series - Sleepy
+photos/smiski/bed/co-sleeping.jpg    # Bed Series - Co-sleeping
+photos/smiski/bed/reading.jpg    # Bed Series - Reading
+photos/smiski/bed/at-sleep.jpg    # Bed Series - At Sleep
+photos/smiski/bed/fussing.jpg    # Bed Series - Fussing
+photos/smiski/bed/crescent-moon.jpg    # Bed Series - Crescent Moon (secret)
+photos/smiski/cheer/on-our-side.jpg    # Cheer Series - On Our Side
+photos/smiski/cheer/dancing.jpg    # Cheer Series - Dancing
+photos/smiski/cheer/little-cheerleading.jpg    # Cheer Series - Little Cheerleading
+photos/smiski/cheer/marching.jpg    # Cheer Series - Marching
+photos/smiski/cheer/drums.jpg    # Cheer Series - Drums
+photos/smiski/cheer/cheering.jpg    # Cheer Series - Cheering
+photos/smiski/cheer/trophy-angel.jpg    # Cheer Series - Trophy Angel (secret)
+photos/smiski/museum/the-source.jpg    # Museum Series - The Source
+photos/smiski/museum/fujin-and-raijin.jpg    # Museum Series - Fujin and Raijin
+photos/smiski/museum/bacchus.jpg    # Museum Series - Bacchus
+photos/smiski/museum/velazquez.jpg    # Museum Series - Velázquez
+photos/smiski/museum/dali.jpg    # Museum Series - Dalí
+photos/smiski/museum/pearl-earring.jpg    # Museum Series - Pearl Earring
+photos/smiski/museum/king-tut.jpg    # Museum Series - King Tut (secret)
+photos/smiski/work/approving.jpg    # @Work Series - Approving
+photos/smiski/work/researching.jpg    # @Work Series - Researching
+photos/smiski/work/presenting.jpg    # @Work Series - Presentation
+photos/smiski/work/good-idea.jpg    # @Work Series - Good Idea
+photos/smiski/work/on-the-road.jpg    # @Work Series - On the Road
+photos/smiski/work/group-think.jpg    # @Work Series - Little Group Think
+photos/smiski/work/lucky-cat.jpg    # @Work Series - Lucky Cat (secret)
+photos/smiski/toilet/peek-a-boo.jpg    # Toilet Series - Peek a Boo
+photos/smiski/toilet/smelly.jpg    # Toilet Series - Little Smelly
+photos/smiski/toilet/squatting.jpg    # Toilet Series - Squatting
+photos/smiski/toilet/helping-out.jpg    # Toilet Series - Helping Out
+photos/smiski/toilet/relaxing.jpg    # Toilet Series - Relaxing
+photos/smiski/toilet/holding-in.jpg    # Toilet Series - Holding In
+photos/smiski/toilet/water-fountain.jpg    # Toilet Series - Water Fountain (secret)
+photos/smiski/bath/shampooing.jpg    # Bath Series - Shampooing
+photos/smiski/bath/not-looking.jpg    # Bath Series - Not Looking
+photos/smiski/bath/scrubbing.jpg    # Bath Series - Scrubbing
+photos/smiski/bath/duck.jpg    # Bath Series - Duck
+photos/smiski/bath/dazed.jpg    # Bath Series - Dazed
+photos/smiski/bath/looking.jpg    # Bath Series - Looking
+photos/smiski/bath/water-droplet.jpg    # Bath Series - Water Droplet (secret)
+photos/smiski/dressing/underpants.jpg    # Dressing Series - Underpants
+photos/smiski/dressing/struggling.jpg    # Dressing Series - Struggling
+photos/smiski/dressing/loose-pants.jpg    # Dressing Series - Loose Pants
+photos/smiski/dressing/putting-on-socks.jpg    # Dressing Series - Putting on Socks
+photos/smiski/dressing/sweater.jpg    # Dressing Series - Sweater
+photos/smiski/dressing/tight-pants.jpg    # Dressing Series - Tight Pants
+photos/smiski/dressing/bunny-costume.jpg    # Dressing Series - Bunny Costume (secret)
+photos/smiski/yoga/lotus.jpg    # Yoga Series - Lotus
+photos/smiski/yoga/triangle.jpg    # Yoga Series - Triangle
+photos/smiski/yoga/twist.jpg    # Yoga Series - Twist
+photos/smiski/yoga/tree.jpg    # Yoga Series - Tree
+photos/smiski/yoga/shoulderstand.jpg    # Yoga Series - Shoulderstand
+photos/smiski/yoga/ship.jpg    # Yoga Series - Ship
+photos/smiski/yoga/twin-heart.jpg    # Yoga Series - Twin Heart (secret)
+photos/smiski/exercise/crunches.jpg    # Exercising Series - Crunches
+photos/smiski/exercise/aerobics.jpg    # Exercising Series - Aerobics
+photos/smiski/exercise/balance.jpg    # Exercising Series - Balance
+photos/smiski/exercise/dumbbell.jpg    # Exercising Series - Dumbbell
+photos/smiski/exercise/hoop.jpg    # Exercising Series - Hoop
+photos/smiski/exercise/stretch.jpg    # Exercising Series - Stretch
+photos/smiski/exercise/flexing.jpg    # Exercising Series - Flexing (secret)
+photos/smiski/moving/carrying-ladder.jpg    # Moving Series - Carrying Ladder
+photos/smiski/moving/balancing-boxes.jpg    # Moving Series - Balancing Boxes
+photos/smiski/moving/decorating.jpg    # Moving Series - Decorating
+photos/smiski/moving/teamwork.jpg    # Moving Series - Teamwork
+photos/smiski/moving/green-thumb.jpg    # Moving Series - Green Thumb
+photos/smiski/moving/falling-down.jpg    # Moving Series - Falling Down
+photos/smiski/moving/teddy.jpg    # Moving Series - Teddy (secret)
+photos/smiski/hippers/smartphone.jpg    # Hippers - On His Smartphone
+photos/smiski/hippers/trying-to-climb.jpg    # Hippers - Trying to Climb
+photos/smiski/hippers/looking-out.jpg    # Hippers - Looking Out
+photos/smiski/hippers/sticking.jpg    # Hippers - Sticking
+photos/smiski/hippers/dozing.jpg    # Hippers - Dozing
+photos/smiski/hippers/upside-down.jpg    # Hippers - Upside Down
+photos/smiski/hippers/headphones.jpg    # Hippers - Headphones (secret)
+photos/smiski/sunday/blowing-bubbles.jpg    # Sunday Series - Blowing Bubbles
+photos/smiski/sunday/paper-airplane.jpg    # Sunday Series - Paper Airplane
+photos/smiski/sunday/sunbathing.jpg    # Sunday Series - Sunbathing
+photos/smiski/sunday/sing-along.jpg    # Sunday Series - Sing-Along
+photos/smiski/sunday/skateboarding.jpg    # Sunday Series - Skateboarding
+photos/smiski/sunday/gardening.jpg    # Sunday Series - Gardening
+photos/smiski/sunday/dog-walker.jpg    # Sunday Series - Dog Walker (secret)
+photos/smiski/birthday/giving-a-bouquet.jpg    # Birthday Series - Giving a Bouquet
+photos/smiski/birthday/wrapped-up.jpg    # Birthday Series - Wrapped Up
+photos/smiski/birthday/popping-confetti.jpg    # Birthday Series - Popping Confetti
+photos/smiski/birthday/birthday-message.jpg    # Birthday Series - Birthday Message
+photos/smiski/birthday/little-decorating.jpg    # Birthday Series - Little Decorating
+photos/smiski/birthday/tasting.jpg    # Birthday Series - Tasting
+photos/smiski/birthday/candle.jpg    # Birthday Series - Candle (secret)
+photos/smiski/construction/digging-a-hole.jpg    # Construction Series - Digging a Hole
+photos/smiski/construction/crushing-rock.jpg    # Construction Series - Crushing Rock
+photos/smiski/construction/tightening-bolt.jpg    # Construction Series - Tightening Bolt
+photos/smiski/construction/measuring.jpg    # Construction Series - Measuring
+photos/smiski/construction/directing-traffic.jpg    # Construction Series - Directing Traffic
+photos/smiski/construction/loosening-bolt.jpg    # Construction Series - Loosening Bolt
+photos/smiski/construction/cone.jpg    # Construction Series - Cone (secret)
+photos/smiski/bath-ball-1/sea-otter.jpg    # Bath Ball 1 - Sea Otter
+photos/smiski/bath-ball-1/afraid-of-water.jpg    # Bath Ball 1 - Afraid of Water
+photos/smiski/bath-ball-1/swim-tube.jpg    # Bath Ball 1 - Swim Tube
+photos/smiski/bath-ball-1/swimming.jpg    # Bath Ball 1 - Swimming
+photos/smiski/bath-ball-1/curled-up.jpg    # Bath Ball 1 - Curled Up
+photos/smiski/bath-ball-1/hesitating.jpg    # Bath Ball 1 - Hesitating
+photos/smiski/bath-ball-1/lounging-mermaid.jpg    # Bath Ball 1 - Lounging Mermaid (secret)
+photos/smiski/bath-ball-2/stretching.jpg    # Bath Ball 2 - Stretching
+photos/smiski/bath-ball-2/washing.jpg    # Bath Ball 2 - Washing
+photos/smiski/bath-ball-2/duck-ing.jpg    # Bath Ball 2 - Duck-ing
+photos/smiski/bath-ball-2/diving.jpg    # Bath Ball 2 - Diving
+photos/smiski/bath-ball-2/floating.jpg    # Bath Ball 2 - Floating
+photos/smiski/bath-ball-2/laid-back.jpg    # Bath Ball 2 - Laid Back
+photos/smiski/bath-ball-2/confused-mermaid.jpg    # Bath Ball 2 - Confused Mermaid (secret)
+photos/smiski/strap-1/hugging-knees.jpg    # Strap · Series 1 - Hugging Knees
+photos/smiski/strap-1/sitting.jpg    # Strap · Series 1 - Sitting
+photos/smiski/strap-1/looking-back.jpg    # Strap · Series 1 - Looking Back
+photos/smiski/strap-1/lounging.jpg    # Strap · Series 1 - Lounging
+photos/smiski/strap-1/hiding.jpg    # Strap · Series 1 - Hiding
+photos/smiski/strap-1/peeking.jpg    # Strap · Series 1 - Peeking
+photos/smiski/strap-1/scream.jpg    # Strap · Series 1 - Scream (secret)
+photos/smiski/strap-2/kneeling.jpg    # Strap · Series 2 - Kneeling
+photos/smiski/strap-2/climbing.jpg    # Strap · Series 2 - Climbing
+photos/smiski/strap-2/daydreaming.jpg    # Strap · Series 2 - Daydreaming
+photos/smiski/strap-2/pushing.jpg    # Strap · Series 2 - Pushing
+photos/smiski/strap-2/peeking.jpg    # Strap · Series 2 - Peeking
+photos/smiski/strap-2/listening.jpg    # Strap · Series 2 - Listening
+photos/smiski/strap-2/birth-of-venus.jpg    # Strap · Series 2 - Birth of Venus (secret)
+photos/smiski/strap-3/bridge.jpg    # Strap · Series 3 - Bridge
+photos/smiski/strap-3/peeking.jpg    # Strap · Series 3 - Peeking
+photos/smiski/strap-3/climbing.jpg    # Strap · Series 3 - Climbing
+photos/smiski/strap-3/little.jpg    # Strap · Series 3 - Little (three)
+photos/smiski/strap-3/hiding.jpg    # Strap · Series 3 - Hiding
+photos/smiski/strap-3/handstand.jpg    # Strap · Series 3 - Handstand
+photos/smiski/strap-3/the-thinker.jpg    # Strap · Series 3 - The Thinker (secret)
+photos/smiski/christmas-hanging/santa-claus.jpg    # Hanging · Christmas - Santa Claus
+photos/smiski/christmas-hanging/present.jpg    # Hanging · Christmas - Present
+photos/smiski/christmas-hanging/snowman.jpg    # Hanging · Christmas - Snowman
+photos/smiski/christmas-hanging/candy-cane.jpg    # Hanging · Christmas - Candy Cane
+photos/smiski/christmas-hanging/stocking.jpg    # Hanging · Christmas - Stocking
+photos/smiski/christmas-hanging/star.jpg    # Hanging · Christmas - Star
+photos/smiski/christmas-hanging/reindeer.jpg    # Hanging · Christmas - Reindeer (secret)
+photos/smiski/series-1-bonus/searching.jpg    # Series 1 · Mini Surprises - Mini Surprise "Searching"
+photos/smiski/series-1-bonus/lifting.jpg    # Series 1 · Mini Surprises - Mini Surprise "Lifting"
+photos/smiski/series-1-bonus/hugging.jpg    # Series 1 · Mini Surprises - Mini Surprise "Hugging"
