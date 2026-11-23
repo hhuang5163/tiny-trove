@@ -1,4 +1,4 @@
-/* Tiny Trove — a blind box shelf that lives on your phone.
+/* Tiny Trove — a blind box shelf that lives on your device.
    Everything you mark (owned, dates, notes, your own photos) is stored in this
    browser's IndexedDB on the device. Nothing is ever sent anywhere. */
 (function () {
@@ -256,7 +256,7 @@
       <div class="settings">
         <label class="field" style="height:40px">look
           <select id="themeSel" aria-label="Light or dark look">
-            <option value="auto"${settings.theme === 'auto' ? ' selected' : ''}>match phone</option>
+            <option value="auto"${settings.theme === 'auto' ? ' selected' : ''}>match system</option>
             <option value="light"${settings.theme === 'light' ? ' selected' : ''}>light</option>
             <option value="dark"${settings.theme === 'dark' ? ' selected' : ''}>dark</option>
           </select>
@@ -871,7 +871,7 @@
     if (checked.unknown) lines.push(`${checked.unknown} figure${checked.unknown === 1 ? '' : 's'} this app doesn't know (skipped)`);
     if (checked.skippedItems) lines.push(`${checked.skippedItems} broken entr${checked.skippedItems === 1 ? 'y' : 'ies'} (skipped)`);
     if (checked.skippedPhotos) lines.push(`${checked.skippedPhotos} broken photo${checked.skippedPhotos === 1 ? '' : 's'} (skipped)`);
-    const ok = await ask(`Replace everything on this phone with this backup?<br><span class="small">${lines.join(' · ')}</span>`, 'Replace', 'Cancel');
+    const ok = await ask(`Replace everything on this device with this backup?<br><span class="small">${lines.join(' · ')}</span>`, 'Replace', 'Cancel');
     if (!ok) return;
     // One transaction: either the whole backup goes in, or nothing on the phone changes.
     try {
@@ -886,7 +886,7 @@
         t.onerror = () => reject(t.error);
         t.onabort = () => reject(t.error || new Error('aborted'));
       });
-    } catch (e) { toast("Couldn't load the backup. Nothing on this phone was changed."); return; }
+    } catch (e) { toast("Couldn't load the backup. Nothing on this device was changed."); return; }
     custom.clear();
     for (const [k, r] of checked.custom) custom.set(k, r);
     buildCatalogs();

@@ -1,6 +1,6 @@
 // Tiny Trove service worker: makes the app open with no internet.
 // Bump VERSION whenever you change app files so phones pick up the new copy.
-const VERSION = 'tiny-trove-v7';
+const VERSION = 'tiny-trove-v8';
 const SHELL = [
   './', 'index.html', 'styles.css', 'app.js', 'sketches.js', 'data/smiski.js',
   'manifest.webmanifest', 'icons/icon-192.png', 'icons/icon-512.png', 'icons/apple-touch-icon.png'
